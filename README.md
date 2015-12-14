@@ -27,6 +27,9 @@ creates 3 certificates: one for numoon.net and www.numoon.net, one for shop.numo
 
 execute `crontab -e` logged in as your letsencrypt-user and create your CRON-Job
 
+## Log File
+All Input is redirected to a log file on execution. You'll find it in your autorenew-Directory, and it is called "cert_renew.log"
+
 ##Licence
 The tool is under GNU GPL v.3 Licence. Feel free to use, share, edit, contribute, whatsoever.
 
