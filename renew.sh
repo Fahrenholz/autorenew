@@ -32,7 +32,7 @@ fi
 
 TARGET=`readlink "$SYMLINK"`
 printf "letsencrypt-auto located in $TARGET\n"
-COMMAND="$TARGET certonly --rsa-key-size 4096 --renew-by-default"
+COMMAND="$TARGET certonly --standalone --rsa-key-size 4096 --renew-by-default"
 
 printf "\n$(/bin/date): Stopping Apache Webserver...\n\n"
 APACHESTOP=`sudo service apache2 stop`
