@@ -40,7 +40,7 @@ APACHESTOP=`sudo service apache2 stop`
 
 while read line || [[ -n "$line" ]]; do
         TRIMMED=`echo $line`
-        if [ ! -z "$TRIMMED" ]
+        if [ ! -z "$TRIMMED" ] && [[ ! "$TRIMMED" =~ "#" ]]
         then
 		TEMPCOMMAND="$COMMAND"
 		DOMAINS=$(echo $TRIMMED | tr " " "\n")
