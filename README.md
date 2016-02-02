@@ -13,11 +13,12 @@ ln -s ../letsencrypt/letsencrypt-auto ./letsencrypt-auto
 ```
 
 ### Edit domain.conf
-** Attention: for now, there is no possibility to add a comment. I'm working on it **
 
 One certificate per line, one or more domains per certificate. To create multidomain certificates, write the domains on one line separated by a whitespace
 ```
+# This is a comment line
 numoon.net www.numoon.net
+# This too
 shop.numoon.net
 update.numoon.net
 ```
