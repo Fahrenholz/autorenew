@@ -1,5 +1,5 @@
 # autorenew
-Auto-Renew script for Letsencrypt. Uses letsencrypt-auto certonly. Easy-to-use as CRON-Job
+Auto-Renew script for Letsencrypt. Uses letsencrypt-auto certonly with standalone-plugin. Easy-to-use as CRON-Job
 
 ## Installation
 
