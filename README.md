@@ -1,4 +1,6 @@
 # autorenew
+* This repository is from the beginning of letsencrypt, when there was no good renewal built-in in it. I keep it merely for nostalgia. Please don't use it *
+
 Auto-Renew script for Letsencrypt. Uses letsencrypt-auto certonly with standalone-plugin. Easy-to-use as CRON-Job
 
 ## Installation
@@ -31,6 +33,6 @@ execute `crontab -e` logged in as your letsencrypt-user and create your CRON-Job
 ## Log File
 All Input is redirected to a log file on execution. You'll find it in your autorenew-Directory, and it is called "cert_renew.log"
 
-##Licence
+## Licence
 The tool is under GNU GPL v.3 Licence. Feel free to use, share, edit, contribute, whatsoever.
 
