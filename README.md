@@ -1,5 +1,5 @@
 # autorenew
-* This repository is from the beginning of letsencrypt, when there was no good renewal built-in in it. I keep it merely for nostalgia. Please don't use it *
+**This repository is from the beginning of letsencrypt, when there was no good renewal built-in in it. I keep it merely for nostalgia. Please don't use it**
 
 Auto-Renew script for Letsencrypt. Uses letsencrypt-auto certonly with standalone-plugin. Easy-to-use as CRON-Job
 
